@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(113, 187, 255)
+}
+h1{
+    color: rgb(59, 31, 31)
+}
+
+h2{
+    color: rgb(58, 22, 58);
+    font-size: 20px;
+}
+p{
+    color: blue;
+}
+
+footer{
+    background-color: black;
+    color: #ffff;
+}
+footer p{color: cornsilk;
+}
+
+#los{
+    width: 500px;
+    border-radius: 50%;
+}
