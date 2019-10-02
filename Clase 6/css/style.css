@@ -1,0 +1,57 @@
+body{
+    font-size: 3em;
+}
+
+div [class*="bloque"]{
+    min-height: 200px;
+    /* flex-grow: 1;
+    flex-shrink: 2; */
+    flex: 1 2 40%;
+}
+
+.bloque1{
+    color: aqua;
+    background-color: black;
+    order: 2;
+}
+
+.bloque2{
+    color: rgb(5, 5, 5);
+    background-color: aqua;
+    order: 3;
+}
+
+.bloque3{
+    color: aqua;
+    background-color: rgb(41, 9, 39);
+    order: 4;
+}
+
+.bloque4{
+    color: aqua;
+    background-color: rgb(9, 16, 78);
+    order: 5;
+}
+
+.bloque5{
+    color: aqua;
+    background-color: rgb(30, 75, 0);
+    order: 6;
+}
+
+.bloque6{
+    color: aqua;
+    background-color: rgb(56, 3, 3);
+    order: 7;
+}
+
+.bloque7{
+    color: aqua;
+    background-color: rgb(78, 3, 59);
+    order: 1;
+}
+
+.contenedor{
+    display: flex;
+    flex-flow: row wrap;
+}
