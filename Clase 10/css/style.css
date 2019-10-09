@@ -88,3 +88,140 @@ body{
 .agregar{
     background-image: linear-gradient(to right, rgb(147, 164, 240), rgb(0, 15, 148) )
 }
+
+.agregar, .guardar, .compartir, .Samsung, .Apple, .Huawei, .Motorola {
+    margin-right: 10px;
+}
+
+.agregar, .guardar, .compartir, .Samsung, .Apple, .Huawei, .Motorola :hover{
+    cursor: pointer;
+}
+
+.guardar, .compartir{
+    color: blue;
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.Samsung{
+    margin-left: 60px;
+    background-color: black;
+    color: bisque;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+.Apple{
+    background-color: rgb(49, 2, 2);
+    color: rgb(187, 167, 143);
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+.Huawei{
+    background-color: rgb(0, 46, 8);
+    color: rgb(124, 184, 184);
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+.Motorola{
+    background-color: rgb(49, 2, 25);
+    color: rgb(171, 236, 180);
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+.comentarios{
+    display: grid;
+    grid-template: 600px / 550px 1fr;
+}
+
+.comentarios span{
+    display: flex;
+    justify-content: center;
+    font-size: initial;
+}
+
+.comentarios :hover{
+    cursor: default;
+}
+
+.nuevoComentario{
+    padding: 20px;
+}
+
+.nuevoComentario p{
+    margin-bottom: 20px;
+}
+
+.anadirComentario{
+    display: flex;
+    justify-content: start;
+    align-content: center;
+}
+
+.anadirComentario img{
+    width: 50px;
+    border-radius: 25px 25px 15px 15px;
+    margin-right: 10px;
+}
+
+.anadirComentario input {
+    background-color: bisque;
+    width: 300px;
+    cursor: text;
+    border-bottom: 5px solid rgb(43, 9, 9);
+}
+
+.anadirComentario input:hover{
+    cursor: text;
+}
+
+.contenedorComentarios{
+    margin-top: 20px;
+    display: flex;
+    align-content: center
+}
+
+.contenedroComentarios img{
+    width: 50px;
+    border-radius: 25px 25px 15px 15px;
+    margin-right: 10px;
+}
+
+.texto{
+    display: block;
+}
+
+.texto p{
+    margin: 0;
+    font-weight: bold;
+    color: blueviolet
+}
+
+.text span{
+    font-weight: 400;
+    color: rgb(7, 104, 96)
+}
+
+.sugerencias .nombreSugerencias{
+    display: flex;
+    justify-content: start;
+}
+
+.sugerencias p{
+    padding: 20px 20px 10px 20px;
+}
+
+.sugerencias img{
+    width: 60%;
+}
+
+.sugerencias img:hover{
+    cursor: pointer;
+}
+
+.sugerencias samp:hover{
+    cursor: pointer;
+}
